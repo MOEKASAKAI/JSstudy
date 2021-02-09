@@ -39,6 +39,8 @@ for(i = 1; i < 11; i++){
   num = num + i;
 }
 
+//四則演算の結果
+
 alert('1から10まで足し算した結果は' + num + 'です');
 
 alert(' 3+5= '+ (3 + 5) );
@@ -48,3 +50,16 @@ alert(' 3-5= ' + ( 3 - 5 ));
 alert(' 3x5= ' + ( 3 * 5 ));
 
 alert(' 5÷3= ' + ( 5 / 3 ));
+
+// 関数-3章
+
+// メイン部分
+var alertString;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
+function addString(strA) {
+  var　addStr ="Hello" +strA;
+  return addStr;
+}
